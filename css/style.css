@@ -649,18 +649,11 @@ h6 {
   text-transform: uppercase;
   line-height: 43px;
   margin: 0px 0px 53px 0px;
-  transform: translate(0px, 120%);
-  opacity: 0;
-  transition: all 0.4s ease 0s;
 }
 .content-mainslider__title span {
   display: block;
   color: #dcdcdc;
   text-shadow: 5px 3px 3px rgb(0, 0, 0);
-}
-.content-mainslider._active .content-mainslider__title {
-  opacity: 1;
-  transform: translate(0px, 0px);
 }
 .content-mainslider__footer {
   padding: 15px 0px 0px 0px;
@@ -715,40 +708,6 @@ h6 {
   line-height: 24px;
   text-transform: uppercase;
   text-shadow: 3px 2px 2px rgb(0, 0, 0);
-}
-.text-mainslider p {
-  transform: translate(-120%, 0px);
-  transition: all 0.8s ease 0s;
-  -webkit-transition: all 0.8s ease 0s;
-  -moz-transition: all 0.8s ease 0s;
-  -ms-transition: all 0.8s ease 0s;
-  -o-transition: all 0.8s ease 0s;
-  opacity: 0;
-}
-.text-mainslider._active p:nth-child(1) {
-  transition: all 0.8s ease 0s;
-  -webkit-transition: all 0.8s ease 0s;
-  -moz-transition: all 0.8s ease 0s;
-  -ms-transition: all 0.8s ease 0s;
-  -o-transition: all 0.8s ease 0s;
-}
-.text-mainslider._active p:nth-child(2) {
-  transition: all 0.8s ease 0.5s;
-  -webkit-transition: all 0.8s ease 0.5s;
-  -moz-transition: all 0.8s ease 0.5s;
-  -ms-transition: all 0.8s ease 0.5s;
-  -o-transition: all 0.8s ease 0.5s;
-}
-.text-mainslider._active p:nth-child(3) {
-  transition: all 0.8s ease 0.8s;
-  -webkit-transition: all 0.8s ease 0.8s;
-  -moz-transition: all 0.8s ease 0.8s;
-  -ms-transition: all 0.8s ease 0.8s;
-  -o-transition: all 0.8s ease 0.8s;
-}
-.text-mainslider._active p {
-  transform: translate(0px, 0px);
-  opacity: 1;
 }
 .text-mainslider__text-1 {
   color: #dcdcdc;

@@ -2333,7 +2333,7 @@ h6 {
 }
 
 .item, .item_second-phone {
-  padding: 5px 22px 0px 35px;
+  padding: 5px 10px 0px 30px;
   margin: 0px 0px 10px 0px;
 }
 @media (max-width: 640px) {
@@ -2946,16 +2946,6 @@ body._lock {
   color: #e4e3e3;
   font-family: "roboto";
   font-size: 30px;
-  transition: all 0.8s ease 0s;
-  -webkit-transition: all 0.8s ease 0s;
-  -moz-transition: all 0.8s ease 0s;
-  -ms-transition: all 0.8s ease 0s;
-  -o-transition: all 0.8s ease 0s;
-  transform: translate3d(0, -190%, 0);
-  -webkit-transform: translate3d(0, -190%, 0);
-  -ms-transform: translate3d(0, -190%, 0);
-  -o-transform: translate3d(0, -190%, 0);
-  opacity: 0;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.75px;
@@ -2967,13 +2957,6 @@ body._lock {
     font-size: 33px;
   }
 }
-.side-title._active {
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  opacity: 1;
-}
 
 .news-side__title {
   display: inline-block;
@@ -2984,16 +2967,6 @@ body._lock {
 }
 .news-side__item:last-child {
   margin: 0px 0px 0px 0px;
-}
-.news-side ._anim-show {
-  transform: translate(0px, -120%);
-  opacity: 0;
-  transition: all 0.8s ease 0s;
-}
-.news-side ._anim-show._active,
-.news-side ._active ._anim-show {
-  opacity: 1;
-  transform: translate(0px, 0px);
 }
 .news-side__label {
   color: #1c1c1c;
@@ -3041,25 +3014,6 @@ body._lock {
 .reviews-side__title {
   display: inline-block;
   margin: 0px 0px 0.6666666667em 0px;
-}
-.reviews-side__items {
-  transition: all 0.8s ease 0s;
-  -webkit-transition: all 0.8s ease 0s;
-  -moz-transition: all 0.8s ease 0s;
-  -ms-transition: all 0.8s ease 0s;
-  -o-transition: all 0.8s ease 0s;
-  transform: translate3d(0, -50%, 0);
-  -webkit-transform: translate3d(0, -50%, 0);
-  -ms-transform: translate3d(0, -50%, 0);
-  -o-transform: translate3d(0, -50%, 0);
-  opacity: 0;
-}
-.reviews-side__items._active {
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  opacity: 1;
 }
 .reviews-side__item {
   margin: 0px 0px 45px 0px;

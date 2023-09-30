@@ -3175,12 +3175,14 @@ body._lock {
   }
 }
 .item-product__labels {
+  display: flex;
   position: absolute;
   left: 15px;
   top: 15px;
 }
 .item-product__label {
   white-space: nowrap;
+  flex: 1 0 auto;
   font-weight: 900;
   color: #474746;
   display: flex;
@@ -3256,6 +3258,7 @@ body._lock {
     border: 2px solid #3b3b3b;
     background: linear-gradient(to right, #230301 0, #520703 22%, #a0261f 50%, #520703 78%, #230301 100%);
     display: inline-flex;
+    flex: 0 1 80px;
     justify-content: center;
     align-items: center;
     border-radius: 15px;

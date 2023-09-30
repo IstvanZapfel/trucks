@@ -1674,6 +1674,7 @@ h6 {
   padding: 0px 0px 12px 0px;
 }
 .body-product__compare {
+  flex: 0 1 150px;
   border-radius: 25px;
   display: flex;
   justify-content: center;
@@ -1697,6 +1698,8 @@ h6 {
   }
 }
 .body-product__stock {
+  flex: 0 1 100px;
+  white-space: nowrap;
   height: 21px;
   display: flex;
   justify-content: center;
@@ -3190,7 +3193,7 @@ body._lock {
   border-radius: 15px;
   justify-content: center;
   align-items: center;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 0px 15px;
   text-transform: uppercase;
   height: 21px;
